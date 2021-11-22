@@ -1,0 +1,49 @@
+.homepage > h1 {
+  text-align: center;
+}
+
+.add-items {
+  width: 50%;
+  margin: auto;
+}
+.add-items > input {
+  width: 40%;
+  height: 4vh;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.add-items > button {
+  height: 5vh;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+.items-list {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.items-list > h3 {
+  flex: 4;
+}
+.items-list > button {
+  flex: 1;
+  justify-content: flex-end;
+  width: 50px;
+}
+.check-list > button {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 5vh;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
